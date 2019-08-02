@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    background: linear-gradient(45deg, rgb(111, 71, 237) 0%, rgb(111, 71, 237) 21%, rgb(101, 92, 233) 21%, rgb(101, 92, 233) 30%, rgb(91, 112, 229) 30%, rgb(91, 112, 229) 35%, rgb(82, 133, 226) 35%, rgb(82, 133, 226) 51%, rgb(72, 154, 222) 51%, rgb(72, 154, 222) 72%, rgb(62, 174, 218) 72%, rgb(62, 174, 218) 81%, rgb(52, 195, 214) 81%, rgb(52, 195, 214) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.jumbotron {
+    box-shadow: #0000009a 0px 20px 25px;
+    background: linear-gradient(135deg, rgb(80, 206, 110) 0%, rgb(80, 206, 110) 44%, rgb(45, 196, 106) 44%, rgb(45, 196, 106) 66%, rgb(10, 185, 102) 66%, rgb(10, 185, 102) 73%, rgb(151, 227, 119) 73%, rgb(151, 227, 119) 75%, rgb(116, 217, 115) 75%, rgb(116, 217, 115) 93%, rgb(186, 238, 123) 93%, rgb(186, 238, 123) 100%);
+}
+
+.nav {
+    background: #323232;
+    box-shadow: #0000009a 0px 10px 15px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.container {
+    padding: 20px;
+}
+
+img {
+    width: 200px;
+    height: 300px;
+    box-shadow: #0000009a 0px 15px 15px;
+}
+
+img:hover {
+    width: 245px;
+    height: 350px;
+    box-shadow: #0000009a 0px 25px 35px;
+    transition: 0.4s;
+}

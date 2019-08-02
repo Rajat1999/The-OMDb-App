@@ -1,13 +1,19 @@
 <% include templates/header.ejs %>
 
-<h1>Here are the results: </h1>
+<div class="container container-fluid">
 
-<ul>
-<% data["Search"].forEach((movie) => { %>
-    <li>
-        <%= movie["Title"] %>
-    </li>
-<% }); %>
-</ul>
+    <h1>Here are some results: </h1>
+    <br>
 
-<a href="/" class="btn btn-primary">Search again</a>
+    <ul>
+        <% data["Search"].forEach((movie) => { %>
+        <li>
+            <h5><%= movie["Title"]  %></h5> - <em><%= movie["Year"] %></em> <br><br>
+            <img src=<%= movie["Poster"] %>>
+        </li>
+        <br><br><br>
+        <% }); %>
+    </ul>
+
+    <a href="/" class="btn btn-warning">Search again</a>
+</div>
