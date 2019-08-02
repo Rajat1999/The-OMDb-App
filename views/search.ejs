@@ -1,0 +1,13 @@
+<% include templates/header.ejs %>
+
+<div class="container container-fluid">
+    <h2>Search your favourite movies here: </h2>
+    <br>
+
+    <form action="/results" method="GET">
+        <div class="form-group">
+            <input type="text" placeholder="Search movie" name="search">
+            <input type="submit" class="btn btn-success">
+        </div>
+    </form>
+</div>

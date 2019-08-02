@@ -1,0 +1,13 @@
+<% include templates/header.ejs %>
+
+<h1>Here are the results: </h1>
+
+<ul>
+<% data["Search"].forEach((movie) => { %>
+    <li>
+        <%= movie["Title"] %>
+    </li>
+<% }); %>
+</ul>
+
+<a href="/" class="btn btn-primary">Search again</a>
