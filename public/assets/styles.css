@@ -42,3 +42,7 @@ img:hover {
     box-shadow: #0000009a 0px 25px 35px;
     transition: 0.4s;
 }
+
+footer { 
+    margin-top: 50px;
+}
