@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 
 var request = require('request');
+const PORT = env.PORT;
 
 app.set('view engine', 'ejs');
 
@@ -22,6 +23,6 @@ app.get('/results', (req, res) => {
     });
 });
 
-app.listen('3030', () => {
+app.listen(PORT || '3030', () => {
     console.log('Server started at port: 3030');
 });
